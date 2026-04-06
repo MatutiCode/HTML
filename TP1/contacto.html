@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!--
+Página: Contacto
+Descripción: Información de contacto y formulario de consultas del IAS
+Autor: Matias Barrios
+Fecha: 04/05/2026
+-->
+<body>
+    <header>
+        <!-- Header: contiene el título principal y subtítulo institucional del sitio -->
+    <h1>Instituto de Asistencia Social - IAS</h1>
+    <h2>Organismo de Control de Juegos de Azar - Formosa</h2>
+    </header>
+    <main>
+        <nav id="menu-principal">
+        <ul>
+            <li><a href="Index.html"> Inicio</a></li>
+            <li><a href="sobre-ias.html">Sobre el IAS</a></li>
+            <li><a href="servicios.html">Funciones</a></li>
+        </ul>
+        </nav>
+        <h2>Contacto</h2>
+        <section>
+            <ul>
+                <li>Dirección <address>Barrio Divino Niño 777</address></li>
+                <li>Teléfono: 3704293179</li>
+                <li>Correo electrónico: <a href="mailto">matutebarrios2020@gmail.com</a></li>
+            </ul>
+        <!-- formulario de contacto, permite enviar consultas al IAS -->
+        <form id="formulario" action="#" method="post">
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="Nombre" placeholder="Nombre Completo">
+            <br>
+            <label for="Email">Email: </label>
+            <input type="mail" id="Email" placeholder="matias@gmail.com">
+            <br>
+            <label for="Teléfono">Teléfono: </label>
+            <input type="tel" id="Teléfono" placeholder="370 4-000000">
+            <br>
+            Campo Motivo de consulta: <label for="motivo"></label>
+                <select name="motivo" id="motivo" required>
+                <option value="programas-sociales">Programas Sociales</option>
+                <option value="juego-responsable">Juegos Responsables</option>
+                <option value="denuncias">Denuncias</option>
+            </select>
+            <br>
+            <label for="Mensaje">Mensaje</label>
+           <textarea name="Mensaje" id="Mensaje" placeholder="tu consulta acá"></textarea>
+           <br>
+            Botón de envío: <button class="btn-enviar" type="submit">Enviar consulta</button>
+        </form>
+    </section>
+    <details>
+        <summary>Horarios de atención extendidos</summary>
+        <ul>
+            <li>lunes a viernes: 7:00 - 13:00</li>
+            <li>Sábados: 8:00 - 12:00</li>
+        </ul>
+    </details>
+    <a href="https://www.google.com/maps/place/Te+Conozco+Orozco!/@-26.1856682,-58.1715958,17z/data=!4m6!3m5!1s0x945ca5e6ac178b53:0xccbe45df60ce8d0!8m2!3d-26.184693!4d-58.1717326!16s%2Fg%2F11c60nsc4z?entry=ttu&g_ep=EgoyMDI2MDQwMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Ubicación</a>
+    </main>
+    <footer><p>&copy; 2026 Instituto de Asistencia Social - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>

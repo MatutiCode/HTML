@@ -1,0 +1,144 @@
+/*
+Estilo Base: tipografia, color, espaciado.
+*/
+body {
+    font-family: Arial, sans-serif;
+    color: rgb(44, 47, 49);
+    background-color: whitesmoke;
+    padding: 1px;
+}
+header {
+    background-color: lightgray;
+    width: auto;
+}
+/*
+Titulos: tipografia, color, alineación.
+*/
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkgreen darkblue;
+    text-align: center;
+}
+/*
+Parrafos: alineación de texto y espacio entre linea.
+*/
+p {
+    line-height: 1;
+    text-align: justify;
+}
+/*
+Enlances: color y eliminación del subrayado.
+*/
+a {
+    color: cadetblue;
+    text-decoration: none;
+}
+/*
+Tablas: borde exterior.
+*/
+table {
+    border: 1px solid black;
+}
+/*
+Encabezado de tabla: color de letra y fondo para diferenciar.
+*/
+thead {
+    background-color: green;
+    color: black;
+    padding: 15px;
+}
+/*
+Celdas de tablas: bordes redondeados y texto centrado.
+*/
+td {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+  
+}
+/*
+clase .destacado 
+*/
+.destacado {
+    padding: 10px;
+    border-radius: 5px;
+}
+/*
+clase .btn-enviar
+*/
+.btn-enviar {
+    background-color: lightgray;
+    color: grey;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+/*
+clase .service
+*/
+.service {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+/*
+ID = #menu-principal
+*/
+#menu-principal {
+    text-align: center;
+    background-color: rgb(39, 46, 114);
+    padding: 10px;
+}
+/*
+ID = formulario
+*/
+#formulario {
+    background-color: blanchedalmond;
+    padding: 20px;
+    border-radius: 8px;
+}
+/*
+Selectores de atributo
+*/
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+/*
+nav ul li
+barra de navegación
+*/
+nav ul li {
+    display: inline;
+    margin-right: 100px;
+}
+/*
+Footer: texto de pie de pagina
+*/
+footer p {
+    text-align: center;
+    color: darkgrey;
+    font-size: 15px;
+}
+/*
+a:hover cambia el color del enlace
+*/
+a:hover {
+    color: cyan;
+    text-decoration: underline;
+}
+/*
+resalta de un color el campo de texto del formulario
+*/
+input:focus {
+    border: 2px solid cornflowerblue;
+    outline: none;
+}
